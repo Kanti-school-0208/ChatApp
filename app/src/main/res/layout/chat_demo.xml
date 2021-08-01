@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/chatdem_background"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+       android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            android:background="#DCE1E1E1"/>
+
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="100dp"
+            android:layout_height="8dp"
+            android:background="#DCE1E1E1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

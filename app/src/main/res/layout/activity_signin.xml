@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SigninActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paperaplane"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Enjoy chating... "
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Signin "
+        android:textColor="#2369F4"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/search_background"
+        android:layout_height="50dp"
+        android:paddingStart="15dp"
+        android:hint="email"
+        android:layout_margin="10dp"
+        android:id="@+id/schoolemail"
+        android:inputType="textEmailAddress"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="@drawable/search_background"
+        android:layout_height="50dp"
+        android:paddingStart="15dp"
+        android:layout_margin="10dp"
+        android:hint="password"
+        android:id="@+id/schoolpass"/>
+
+    <Button
+        android:backgroundTint="#1AB2EF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sign in"
+        android:id="@+id/signin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="If you already have an account?"
+            android:textColor="#1B1919"/>
+
+        <TextView
+            android:id="@+id/clickhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here"
+            android:textSize="19sp"
+            android:layout_marginStart="5dp"
+            android:textColor="#ED1010"/>
+    </LinearLayout>
+
+
+</LinearLayout>
